@@ -1,0 +1,50 @@
+{
+  "name": "react-dummy",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000d\u0000u\u0000m\u0000m\u0000y\u0000\r\u0000 \u0000\r\u0000 \u0000#\u0000 \u0000C\u0000r\u0000e\u0000a\u0000t\u0000e\u0000 \u0000a\u0000 \u0000d\u0000u\u0000m\u0000m\u0000y\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000 \u0000p\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000 \u0000w\u0000i\u0000t\u0000h\u0000 \u0000M\u0000o\u0000b\u0000x\u0000,\u0000 \u0000W\u0000e\u0000b\u0000p\u0000a\u0000c\u0000k\u0000,\u0000 \u0000a\u0000n\u0000d\u0000 \u0000E\u0000x\u0000p\u0000r\u0000e\u0000s\u0000s\u0000 \u0000j\u0000s\u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.production.config.js",
+    "dev": "webpack serve --config webpack.dev.config.js --hot",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/criruiz11/react-dummy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/criruiz11/react-dummy/issues"
+  },
+  "homepage": "https://github.com/criruiz11/react-dummy#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.19.4",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
